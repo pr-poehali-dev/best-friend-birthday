@@ -2,13 +2,13 @@ import PhotoGallery from "@/components/PhotoGallery";
 import NavBar from "@/components/NavBar";
 
 const Gallery = () => {
-  // Замените эти данные на реальные фотографии
+  // Данные фотографий
   const photos = [
     {
       id: 1,
-      src: "/placeholder.svg", // Замените на реальные фото
-      alt: "Мы на пикнике",
-      caption: "Летний пикник в парке"
+      src: "https://cdn.poehali.dev/files/8a8f701d-cf53-41be-9cd0-c61fdd73d940.jpg", 
+      alt: "Духи Strawberry",
+      caption: "Твои любимые духи - Strawberry 🍓"
     },
     {
       id: 2,
